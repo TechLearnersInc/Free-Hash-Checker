@@ -39,7 +39,7 @@
 ## Screenshot
 
 <p align="center">
-  <img src="docs/screenshots/calculating.png" alt="Calculating Window"/>
+  <img src="screenshots/calculating.png" alt="Calculating Window"/>
 </p>
 
 ## Features
