@@ -22,12 +22,6 @@
 </div>
 
 <div align="center">
-  <!-- Warning -->
-  <img src="https://img.shields.io/badge/NOTICE-not%20released%20yet-red" alt="LICENSE">
-</div>
-
-
-<div align="center">
   <sub>This Hash Checker Tool that could. Built with ❤︎ by
     <a href="https://github.com/Rizwan-Hasan/">Rizwan Hasan</a> and
     <a href="https://github.com/Rizwan-Hasan/Free-Hash-Checker/graphs/contributors">
