@@ -32,8 +32,8 @@
 
 <div align="center">
   <sub>This Hash Checker Tool that could. Built with ❤︎ by
-    <a href="https://github.com/Rizwan-Hasan/">Rizwan Hasan</a> and
-    <a href="https://github.com/Rizwan-Hasan/Free-Hash-Checker/graphs/contributors">
+    <a href="https://github.com/TechLearnersInc">TechLearnersInc</a> and
+    <a href="https://github.com/TechLearnersInc/Free-Hash-Checker/graphs/contributors">
       contributors
     </a>
   </sub>
