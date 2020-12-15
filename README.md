@@ -28,6 +28,7 @@
       contributors
     </a>
   </sub>
+  <br />
   <a href="https://sourceforge.net/projects/free-hash-checker/files/latest/download"><img alt="Download Free Hash Checker" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x">
   </a>
 </div>
