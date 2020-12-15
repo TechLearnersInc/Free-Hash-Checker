@@ -21,6 +21,13 @@
   </a>
 </div>
 
+<br>
+
+<div align="center">
+    <a href="https://sourceforge.net/projects/free-hash-checker/files/latest/download"><img alt="Download Free Hash Checker" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x">
+    </a>  
+</div>
+
 <div align="center">
   <sub>This Hash Checker Tool that could. Built with ❤︎ by
     <a href="https://github.com/Rizwan-Hasan/">Rizwan Hasan</a> and
@@ -28,9 +35,6 @@
       contributors
     </a>
   </sub>
-  <br />
-  <a href="https://sourceforge.net/projects/free-hash-checker/files/latest/download"><img alt="Download Free Hash Checker" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x">
-  </a>
 </div>
 
 ## Screenshot
