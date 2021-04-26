@@ -58,7 +58,7 @@
 ## Credits
 
 <div>Icons made by <a href="https://icons8.com/">Icons8</a></div>
-<div>Logo made by <a href="https://github.com/skinan">Sakib Khan Inan</a></div>
+<div>Logo made by <a href="https://github.com/skinan">Muhammad Sakib Khan Inan</a></div>
 
 ## License
 
