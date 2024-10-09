@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
+  "author": "Rizwan Hasan <rizwan.hasan486@gmail.com> (https://rizwan-hasan.github.io/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechLearnersInc/Free-Hash-Checker.git"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV='development'; vite",
     "build": "NODE_ENV='production'; vite build",

@@ -1,4 +1,9 @@
 <template>
+  <git-hub-fork-ribbon-vue
+    v-bind:title="forkRibbon.title"
+    v-bind:url="gitRepoUrl"
+    v-bind:color="forkRibbon.color"
+  />
   <div class="grid sm:grid-cols-12 grid-cols-12">
     <div class="col-span-12">
       <app-header-vue v-bind:git-repo-url="gitRepoUrl" v-bind:download-url="downloadUrl" />
@@ -20,6 +25,7 @@
 import AppHeaderVue from '@/components/Header.vue';
 import AppTakeALookFirstVue from '@/components/TakeALookFirst.vue';
 import AppFooterVue from '@/components/Footer.vue';
+import GitHubForkRibbonVue from './components/GitHubForkRibbon.vue';
 
 export default {
   name: 'App',
@@ -27,6 +33,7 @@ export default {
     AppHeaderVue,
     AppTakeALookFirstVue,
     AppFooterVue,
+    GitHubForkRibbonVue,
   },
   data() {
     return {
@@ -34,6 +41,10 @@ export default {
       gitRepoUrl: 'https://github.com/TechLearnersInc/Free-Hash-Checker.git',
       downloadUrl: 'https://sourceforge.net/projects/free-hash-checker/files/v3.0/',
       licenseUrl: 'https://github.com/TechLearnersInc/Free-Hash-Checker/blob/main/LICENSE',
+      forkRibbon: {
+        title: 'Fork me on GitHub',
+        color: '#35495e',
+      },
     };
   },
 };
