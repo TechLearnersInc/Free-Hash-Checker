@@ -7,15 +7,27 @@
             Take a look first
           </h1>
         </div>
-        <div
+        <article
           class="sm:col-span-1"
           v-for="screenshot in appScreenshots"
           v-bind:key="screenshot.name"
         >
-          <div class="flex justify-center items-center drop-shadow-md p-4">
-            <img v-bind:src="screenshot.image" v-bind:alt="screenshot.name" />
+          <div class="grid grid-cols-1 text-center">
+            <img
+              class="drop-shadow-md p-4"
+              v-bind:src="screenshot.img"
+              v-bind:alt="screenshot.name"
+            />
+            <div class="mt-4 mb-10">
+              <h1 class="col-span-1 font-lato text-2xl font-semibold text-gray-700 mb-2">
+                {{ screenshot.name }}
+              </h1>
+              <p class="col-span-1 font-poppins text-md text-gray-600">
+                {{ screenshot.desc }}
+              </p>
+            </div>
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </div>
@@ -34,19 +46,23 @@ export default {
       appScreenshots: [
         {
           name: 'Main Window',
-          image: AppStartScrnSht,
+          img: AppStartScrnSht,
+          desc: 'Select any file for calcualting hash',
         },
         {
           name: 'Finished Window',
-          image: AppFinishedScrnSht,
+          img: AppFinishedScrnSht,
+          desc: 'Hash can be copied to clipboard with a single click',
         },
         {
           name: 'Hash Calculation',
-          image: AppCalculatingScrnSht,
+          img: AppCalculatingScrnSht,
+          desc: 'Tracking the progress of calculation',
         },
         {
           name: 'Hash Matching',
-          image: AppCheckerScrnSht,
+          img: AppCheckerScrnSht,
+          desc: 'Also have the hash matching feature',
         },
       ],
     };
