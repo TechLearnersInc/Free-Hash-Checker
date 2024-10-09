@@ -1,5 +1,5 @@
 <template>
-  <div class="grid sm:grid-cols-12 grid-cols-12 sm:grid-rows-3 grid-rows-3">
+  <div class="grid sm:grid-cols-12 grid-cols-12">
     <app-header-vue v-bind:git-repo-url="gitRepoUrl" v-bind:download-url="downloadUrl" />
     <app-screenshots-vue />
     <app-footer-vue />

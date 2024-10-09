@@ -3,7 +3,6 @@
     "Vue.volar",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
-    "stivo.tailwind-fold"
+    "bradlc.vscode-tailwindcss"
   ]
 }
