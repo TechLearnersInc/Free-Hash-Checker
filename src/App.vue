@@ -1,21 +1,21 @@
 <template>
   <div class="grid sm:grid-cols-12 grid-cols-12">
     <app-header-vue v-bind:git-repo-url="gitRepoUrl" v-bind:download-url="downloadUrl" />
-    <app-screenshots-vue />
+    <app-take-a-look-first-vue />
     <app-footer-vue />
   </div>
 </template>
 
 <script>
 import AppHeaderVue from '@/components/Header.vue';
-import AppScreenshotsVue from '@/components/Screenshots.vue';
+import AppTakeALookFirstVue from '@/components/TakeALookFirst.vue';
 import AppFooterVue from '@/components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     AppHeaderVue,
-    AppScreenshotsVue,
+    AppTakeALookFirstVue,
     AppFooterVue,
   },
   data() {

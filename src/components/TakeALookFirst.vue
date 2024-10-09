@@ -28,7 +28,7 @@ import AppStartScrnSht from '@/assets/images/screenshots/start.png';
 import AppCalculatingScrnSht from '@/assets/images/screenshots/calculating.png';
 
 export default {
-  name: 'AppScreenshots',
+  name: 'AppTakeALookFirst',
   data() {
     return {
       appScreenshots: [
