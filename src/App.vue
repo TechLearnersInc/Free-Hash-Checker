@@ -4,7 +4,7 @@
     v-bind:url="gitRepoUrl"
     v-bind:color="forkRibbon.color"
   />
-  <div class="grid sm:grid-cols-12 grid-cols-12">
+  <div class="grid grid-cols-12 sm:grid-cols-12">
     <div class="col-span-12">
       <app-header-vue v-bind:git-repo-url="gitRepoUrl" v-bind:download-url="downloadUrl" />
     </div>

@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-row justify-center items-center">
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 sm:pl-4 sm:pr-4">
-      <div class="col-span-1 sm:col-span-2 mt-24 mb-12">
-        <h1 class="font-lato text-5xl font-semibold text-gray-700 text-center">
+  <div class="flex flex-row items-center justify-center">
+    <div class="grid grid-cols-1 gap-x-12 sm:grid-cols-2 sm:pl-4 sm:pr-4">
+      <div class="col-span-1 mb-12 mt-24 sm:col-span-2">
+        <h1 class="text-center font-lato text-5xl font-semibold text-gray-700">
           Take a look first
         </h1>
       </div>
@@ -13,15 +13,15 @@
       >
         <div class="grid grid-cols-1 text-center">
           <img
-            class="drop-shadow-md p-4"
+            class="p-4 drop-shadow-md"
             v-bind:src="screenshot.img"
             v-bind:alt="screenshot.name"
           />
-          <div class="mt-4 mb-10">
-            <h1 class="col-span-1 font-lato text-2xl font-semibold text-gray-700 mb-2">
+          <div class="mb-10 mt-4">
+            <h1 class="col-span-1 mb-2 font-lato text-2xl font-semibold text-gray-700">
               {{ screenshot.name }}
             </h1>
-            <p class="col-span-1 font-poppins text-md text-gray-600">
+            <p class="text-md col-span-1 font-poppins text-gray-600">
               {{ screenshot.desc }}
             </p>
           </div>
