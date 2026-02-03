@@ -2,9 +2,9 @@ import logging
 import os
 import time
 
-from PySide2.QtCore import Slot
-from PySide2.QtGui import QPixmap, QGuiApplication, QCloseEvent, QIcon
-from PySide2.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
+from PySide6.QtCore import Slot
+from PySide6.QtGui import QPixmap, QGuiApplication, QCloseEvent, QIcon
+from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
 
 from hashcalc import HashingMethods
 from infoManager import informationManger
@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
 
         # Clipboard setup ↓
         self.__clipboard = QApplication.clipboard()
-        self.__clipboard.clear(mode=self.__clipboard.Clipboard)
+        self.__clipboard.clear(mode=self.__clipboard.Mode.Clipboard)
 
         # Resetting progress bar ↓
         self.ui.progressBarHashCaclulation.reset()
